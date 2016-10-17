@@ -29,3 +29,33 @@ public class ThirdLargest {
 	}
 
 }
+/* Another method to find the third largest number in an array however the time complexity is O(nlogn)
+ * 
+ * public class Solution implements Comparator<Integer>{
+    public int thirdMax(int[] nums) {
+        Solution sol=new Solution();
+        Set<Integer> set=new HashSet<>();
+        PriorityQueue<Integer> pq=new PriorityQueue<>(1,sol);
+        for(int i:nums){
+            set.add(i);
+        }
+        for(Integer i:set){
+            pq.add(i);
+        }
+        System.out.println(pq);
+        if(pq.size()>=3){
+            pq.poll();
+            pq.poll();
+            return pq.poll();
+        }
+        else if(set.isEmpty()){
+            return Integer.MIN_VALUE;
+        }
+        else{
+            return pq.poll();
+        }
+    }
+     public int compare(Integer i1,Integer i2){
+            return (i2>i1?1:((i1>i2)?-1:0));
+        }
+}*/
