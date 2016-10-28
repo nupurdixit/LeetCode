@@ -15,7 +15,7 @@ public class ThirdLargest {
 			if(!set.contains(i)){
 				set.add(i);
 				while(set.size()>3){
-					System.out.println(set.pollFirst());//pollFirs removes the lowest element ie. from start
+					System.out.println(set.pollFirst());//pollFirst removes the lowest element ie. from start
 				}
 			}
 		}
