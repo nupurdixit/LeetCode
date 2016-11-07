@@ -13,7 +13,7 @@ Given s = "Hello World",
 return 5.
  * 
  */
-public class LatWordLength {
+public class LastWordLength {
 	public static int lastWordLength(String str){
 		int len=0;
 		int strlen=str.length();
@@ -34,7 +34,7 @@ public class LatWordLength {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int len=lastWordLength("hello baby");
+		int len=lastWordLength("hello baby ");
 		System.out.println("last word length is:"+len);
 	}
 
