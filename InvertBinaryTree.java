@@ -1,6 +1,7 @@
 package LeetCode;
 
 //Inverting a binary tree
+//main concept here is just swapping the left and right child in order to get the mirror image
 
 import java.util.LinkedList;
 import java.util.Queue;

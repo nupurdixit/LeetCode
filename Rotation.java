@@ -1,7 +1,5 @@
 package LeetCode;
-
-import java.util.Comparator;
-import java.util.PriorityQueue;
+//https://leetcode.com/problems/rotate-function/
 
 public class Rotation{
 //	static PriorityQueue<Integer> pq=new PriorityQueue<Integer>(10,new Comparator<Integer>(){
