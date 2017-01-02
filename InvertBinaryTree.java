@@ -38,7 +38,7 @@ public class InvertBinaryTree {
 		s.push(t);
 		while(!s.isEmpty()){
 			t=s.pop();
-			System.out.print(t.val+" ");
+			//System.out.print(t.val+" ");
 			TreeNode temp=t.left;
 			t.left=t.right;
 			t.right=temp;
